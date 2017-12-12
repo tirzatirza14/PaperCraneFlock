@@ -4,7 +4,7 @@ class Crane {
 
    constructor(x, y, z, a) {
       this.pos = createVector(x, y, z)
-      this.vel = createVector(random(-2, 2), random(-2, 2), random(-2, 2))
+      this.vel = createVector(random(-2, 2), random(-1, 1), random(-2, 2))
       this.acc = createVector(0, 0, 0)
 
       this.mass = random(10,30)
